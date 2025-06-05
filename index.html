@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NERVOVIVE – Official Offer</title>
+  <style>
+    :root {
+      --primary: #ff7f50;
+      --primary-dark: #ff6333;
+      --text: #333;
+      --bg: #f8f9fa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      line-height: 1.5;
+      padding: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      width: 100%;
+      max-width: 960px;
+      border-radius: 20px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+      padding: 2.7rem 2.2rem 3rem;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 1.4rem;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      margin-bottom: 1rem;
+    }
+
+    p.lead {
+      font-size: 1.2rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      background: #eef1f5;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .benefits {
+      background: #f2f9f6;
+      padding: 1.4rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    .benefits h2 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: var(--primary-dark);
+    }
+
+    .benefits ul {
+      list-style: disc;
+      padding-left: 1.4rem;
+    }
+
+    .cta-btn {
+      background: var(--primary);
+      background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #fff;
+      border: none;
+      padding: 1rem 2.2rem;
+      font-size: 1.05rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.25s ease;
+    }
+
+    .cta-btn:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      font-size: 0.8rem;
+      color: #6d6d6d;
+      margin-top: 2.2rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="brand">NERVOVIVE</div>
+    <h1>Official Offer – Better Than Amazon</h1>
+    <p class="lead">You're eligible for <strong>exclusive bonuses & direct-from-manufacturer pricing</strong> not available on Amazon.</p>
+
+    <div class="badges">
+      <span class="badge">🇺🇸 Made in the USA</span>
+      <span class="badge">🌿 100% Natural Ingredients</span>
+      <span class="badge">📦 Fast & Secure Shipping</span>
+      <span class="badge">✅ 60-Day Money-Back Guarantee</span>
+      <span class="badge">💥 New Customer Discount</span>
+    </div>
+
+    <div class="benefits">
+      <h2>Why Buy Here Instead of Amazon?</h2>
+      <ul>
+        <li>✔️ Lower price with exclusive first-time buyer discount</li>
+        <li>🎁 Includes free bonuses available only on this page</li>
+        <li>📬 Ships directly from the official Nervovive facility</li>
+        <li>🔒 Full refund guarantee through the manufacturer</li>
+        <li>⚠️ Amazon listings may be from unauthorized resellers</li>
+      </ul>
+    </div>
+
+    <p class="lead">Accept cookies to claim today’s exclusive Nervovive deal & receive bonuses.</p>
+
+    <button id="orderBtn" class="cta-btn">Accept Cookies & Continue</button>
+
+    <footer>We use cookies to personalize content & improve your experience. You’ll be redirected to our verified partner checkout.</footer>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn = document.getElementById('orderBtn');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          window.location.href = 'https://thenervovive24.com/text.php#aff=cairoduarte';
+        });
+      }
+    });
+  </script>
+</body>
+</html>
